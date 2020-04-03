@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("../images/scet8.jpg");
+	height:10vh; 
+	background-repeat:no-repeat;
+	background-size: cover; 
+	background-attachment:fixed; 
+	background-position:center; 
+}
+#scet{
+	text-align:center; 
+	color:white; 
+}
+.notify {
+	color:white;
+	text-align:center;   
+}
+.notify p{
+	color:gray;
+	text-decoration:none;  
+}
+.notify a{
+	text-decoration:none; 
+}
+span{
+	color:red; 
+}
+
+header ul {
+	float: right;
+	width:100%;
+	height:23px;  
+	background-color:lightgray;
+}
+header li {
+	display: inline-block;
+	padding-left:20px;
+	padding-right:20px; 
+	background-color:transparent;
+	font-size:20px; 
+	margin-right:10px;
+	font-weight:bolder;  
+}
+header li a{
+	text-decoration: none;
+	transition:0.07s ease; 
+}
+header li.active {
+	background-color:palegreen;
+	color:red; 
+}
+ul li a:hover{
+	background-color:palegreen; 
+	color:red; 
+	padding-left:20px;
+	padding-right:20px; 
+}
+
+
+
+.college {
+	text-align:center; 
+	color:yellow;
+	font-stretch:90%;  
+}
+div{
+	text-align: center;
+}
+
+marquee {
+	color: red;
+}
+.form {
+	border: 2px solid white;
+	color: black;
+	background-color:lightgray; 
+	height: 150px;
+	width:auto;
+	padding:20px;
+	margin-left:400px;
+	margin-right:400px;  
+}
+.form_c {
+	border:2px solid white;
+	color: black;
+	background-color:lightgray; 
+	height:350px;
+	width:auto;
+	padding:20px;
+	margin-left:400px;
+	margin-right:400px;  
+}
+
+.mid-container h2{
+   color:orange;
+   text-decoration:underline;  
+}
+.mid-container {
+	background-color:white; 
+	margin:10px;
+	padding:10px; 
+}
+ .mid-container p{
+	color:indigo;
+	font-size:15px; 
+	line-height:25px;
+	text-align:center;
+	font-weight:lighter;
+}
+footer {
+	background-color:#2d1846;
+	display:block;
+	position:auto;
+	text-align:unset;
+	margin-left:auto;
+	margin-right:auto;  
+	background-color:transparent; 
+}
+p{
+	font-family: 'Comic Neue' , cursive;
+}	
+.social{ 
+	height:auto;
+	width:auto; 
+	position:relative;
+	top:230px; 
+	background-color:transparent; 
+	text-align:center; 
+
+
+	background-color:orange; 
+	text-align: center;
+	position:relative; 
+	top:200px;
+	color:black;
+	background-color:#E4F9F4; 
+	background-color:#FFA07A;
+	background-color:palegreen;  
+}
+.social img {
+	height:30px; 
+	width:30px;
+	padding-right:20px;
+	padding-left: 20px; 
+}
+.images {
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content:center;  
+}
+.images img{
+	height:300px; 
+	width:400px;
+	border:2px solid transparent;
+    padding:10px 5px 10px 5px; 
+    margin:2px; 
+}
+.caption{
+	color:orange;
+	text-align:center;  
+}
+.intro{
+	font-family:;
+	font-size:15px;
+	line-height:25px;    
+    font-weight:lighter;
+    color:indigo;  
+}
+.intro b,h3{
+	  font-size:20px;
+	  text-decoration:underline;
+	  background-color:white; 
+	  color:orange;   
+}
+.container{
+	background-color:white; 
+	margin:10px;
+	padding:10px;  
+	}
+h4{
+	color:gray;
+	text-align:center;
+	line-height:25px;   
+}	
